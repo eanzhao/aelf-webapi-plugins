@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="AElf.Kernel" Version="1.9.0" />
+        <PackageReference Include="AElf.Runtime.CSharp" Version="1.9.0" />
+        <PackageReference Include="AElf.WebApp.Application.Chain" Version="1.9.0" />
+        <PackageReference Include="AElf.WebApp.Application.Core" Version="1.9.0" />
+        <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.0.5" />
+        <PackageReference Include="Volo.Abp.Http" Version="8.0.5" />
+    </ItemGroup>
+
+</Project>
